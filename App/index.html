@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+
+}
+body{background:black;
+    color:white;
+
+}
+</style>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+       <link rel="icon" href="fav.ico" type="image/png">
+<link rel="stylesheet" type="text/css" href="ui/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Enriqueta|Jomhuria" rel="stylesheet">
+        <script type="text/javascript" src="/ui/main.js"></script>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>
+            E-estate
+        </title>
+    </head>
+    <body >
+  <!--TITLE BAR-->
+        <div class="w3-container w3-teal" id="title">
+            <h1  style=" font-family:Audiowide;" class=" w3-center w3-left w3-jumbo">E-estate</h1>
+        </div>
+        <!-- NAVIGATION OPTIONS-->
+        <div id="navigation_bar" class="w3-bar w3-border w3-text-white " style="background-color:#212121">
+  <a href="javascript:home_fun()" class="w3-bar-item w3-button w3-hover-teal">HOME</a>
+  <a href="javascript:aboutus_fun()" class="w3-bar-item w3-button w3-hover-teal">ABOUT US</a>
+  <!--<a href="javascript:achievements_fun()" class="w3-bar-item w3-button w3-hover-teal">Achievements</a>-->
+  <a href="javascript:contact_fun()" class="w3-bar-item w3-button w3-hover-teal">CONTACT</a>
+  <a href="javascript:login_fun()" class="w3-bar-item w3-button w3-hover-teal w3-right">LOGIN</a>
+   <a href="javascript:register_fun()" class="w3-bar-item w3-button w3-hover-teal w3-right">REGISTER</a>
+</div>
+<!-- HOME PAGE-->
+<div style="display:block" id="home" class="w3-container w3-center">
+    <h1  style="font-size:90px;font-family: 'Baloo Bhai', cursive;">How we work??</h1>
+
+    <img src="https://preview.ibb.co/dP2Dam/image.jpg" alt="image" border="0"><br>
+    <h3>E-estae is an online real estate management platform where buyers and sellers can interact and talk about their deals.<br>
+    We provide 24*7 assistance and act as a middle man between buyers and sellers.<br>E-estate presents  buyers and sellers an effective and most effecient way of transactions.
+    </h3>
+    <h1  style="font-size:90px;font-family: 'Baloo Bhai', cursive;">Are we trust worthy??</h1>
+    <img class="w3-left" src="https://preview.ibb.co/jwYi86/229.gif" alt="229" border="0">
+    <h3>In this technical era we can't trust anyone,then how are we trustworthy??Real estate business is the most prone field to frauds and illegal activities.So once a seller registers with us we will verify all the documents and then we will rate each property accordingly.So buyers can trust all the sellers on E-estate, since we are the award winninng Real esate brokers since last two decades.</h3>
+    <pre>
+
+
+
+    </pre>
+    <h1  style="font-size:90px;font-family: 'Baloo Bhai', cursive;" class="w3-center">Where to start??</h1>
+   <div >
+    <h3>Do you have property??Do you find it difficult to find buyers??Are you vexed with the brokerage rates and want to find buyers online??Then why are you waiting?? come and join us.</h3>
+    <button class="w3-btn w3-teal" onclick="s()">Register as a Seller</button>
+    </div>
+     <div>
+    <h3>Are you looking for a site or an apartment or a vacant slot whatever it may be you can find anything here at almost free.Hurry up and grab all the latest discounts.It's just a click away</h3>
+    <button class="w3-btn w3-teal" onclick="b()">Register as a buyer</button>
+    </div>
+</div>
+<!-- ABOUT US   -->
+<div id="aboutus" class="w3-container" style="display:none">
+    <h1  style="font-size:90px;font-family: 'Baloo Bhai', cursive;" >About us</h1>
+    <h3>E-estate is one of the leading online real estate platforms with more than a decade of experience in the real estate field.E-estate is founded by Maneesha and her friends in the year 2008 with an intention of making the real estate transactions more reliable.E-estate aims at providing an effecient and most effective way for both sellers and buyers to find the other.Our atmost priority is the genuinity of the property and trustworthyness of buyers.We are striving hard to make this possible</h3>
+</div>
+<!--CONTACT US-->
+<div id="contact" class="w3-container" style="display:none">
+    <div class="w3-left">
+   <a href="#" class="fa fa-facebook"></a><br>
+<a href="#" class="fa fa-twitter"></a><br>
+<a href="#" class="fa fa-google"></a><br>
+<a href="#" class="fa fa-linkedin"></a><br>
+</div>
+    <form class="w3-container w3-right">
+  <p>
+  <input class="w3-input" type="text">
+  <label>Name</label></p>
+
+  <p>
+  <input class="w3-input" type="text">
+  <label>Contact number</label></p>
+
+  <p>
+  <input class="w3-input" type="text">
+  <label>Email</label></p>
+  <button class="w3-btn w3-teal">Submit</button>
+</form>
+</div>
+ <div  id="contact" class="w3-container" style="display:none">
+  <h1  style="font-size:90px;font-family: 'Baloo Bhai', cursive;" >Achievements</h1>
+</div>
+<div id="login" class="w3-modal-content w3-animate-top" style="display:none">
+    <div class="w3-card">
+   <div class="w3-center ">
+       <h3 class="w3-text-black">Login</h3>
+       <input style="margin-bottom:5px" class="w3-border  w3-hover-pale-blue" type="text" id="username" placeholder="E-mail"><br>
+       <input class="w3-border w3-hover-pale-blue" type="password" id="password" placeholder="Password"><br>
+       <span class="w3-text-black">Login as </span><input type="radio" name="value" id="buyer"><span class="w3-text-black">Buyer</span>
+        <input type="radio" name="value" id="seller"><span  class="w3-text-black">Seller</span><br>
+        <!--<input type="radio" name="value" id="admin"><span  class="w3-text-black">Admin</span>-->
+       <button class="w3-btn w3-teal" onclick="login_form()" >Login</button>
+   </div>
+   </div>
+</div>
+<!--REGISTRATION FORMS FOR BUYERS AND SELLERS-->
+<div style="display:none" id="register" class="w3-conatiner w3-center">
+    <button class="w3-btn w3-teal" onclick="this.style.backgroundColor = '#ffffff';register_buyer()">Buyer</button>
+        <button onclick="register_seller()" class="w3-btn w3-teal">Seller</button>
+        <!--BUYER REGISTRATION FORM-->
+        <div class="w3-container w3-center" style="display:none" id="buyer_register">
+        <fieldset>
+             <legend>Buyer Registration</legend>
+            <input class="w3-hover-pale-blue" style="margin-bottom:5px;margin-top:5px" type="text" id="buyer_name" placeholder="Enter your name"><br>
+            <input class="w3-hover-pale-blue" style="margin-bottom:5px" type="number" id="buyer_contact" placeholder="Contact number" maxlength="10"><br>
+            <input class="w3-hover-pale-blue" style="margin-bottom:5px" type="email" id="buyer_email" placeholder="Enter your email"><br>
+             <input class="w3-hover-pale-blue" style="margin-bottom:5px" type="password" id="buyer_password" placeholder="Choose a password"><br>
+             </fieldset>
+            <button class="w3-btn w3-teal"  onclick="buyerregister_form()">Register</button>
+
+        </div>
+        <!--SELLER REGISTRATION FORM-->
+        <div class="w3-container w3-center" style="display:none" id="seller_register" >
+            <fieldset>
+                <legend>Seller Registration</legend>
+            <input class="w3-hover-pale-blue" style="margin-bottom:5px;margin-top:5px" type="text" id="seller_name" placeholder="Enter your name"><br>
+            <input class="w3-hover-pale-blue" style="margin-bottom:5px" type="number" id="seller_contact" placeholder="Contact number"><br>
+            <input class="w3-hover-pale-blue" style="margin-bottom:5px" type="email" id="seller_email" placeholder="Enter your email"><br>
+             <input class="w3-hover-pale-blue" style="margin-bottom:5px" type="password" id="seller_password" placeholder="Choose a password"><br>
+             </fieldset>
+
+
+            <button style="margin-bottom:5px;margin-top:5px" class="w3-btn w3-teal" onclick="sellerregister_form()">Register</button>
+
+        </div>
+</div>
+<!--MODAL TO DISPLAY GREETINGS AFTER REGISTRATION-->
+  <div id="id01" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-teal">
+        <span onclick="document.getElementById('id01').style.display='none';login_fun()"
+        class="w3-button w3-display-topright">&times;</span>
+        <h2 class="w3-center">Thank you</h2>
+      </header>
+      <div class="w3-container">
+
+        <h3 class="w3-text-black" id="set"></h3>
+
+      </div>
+      <footer class="w3-container w3-teal">
+        <p class="w3-center">Please login to view your profile</p>
+      </footer>
+    </div>
+  </div>
+  <!--AFTER BUYER LOGIN-->
+  <div id="loginpage" class="w3-container" style="display:none">
+    <div class="w3-dropdown-hover">
+      <button class="w3-btn w3-gray ">Menu</button>
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+           <a href="javascript:customer_home()" class="w3-bar-item w3-button">Home</a>
+        <a href="javascript:customer_update()" class="w3-bar-item w3-button">Update profile</a>
+        <a href="javascript:customer_bookproperty()" class="w3-bar-item w3-button">Book property</a>
+        <a href="javascript:customer_cancelproperty()" class="w3-bar-item w3-button">Cancel property</a>
+         <a href="javascript:customer_logout()" class="w3-bar-item w3-button">Logout</a>
+      </div>
+    </div>
+    <div class="w3-container w3-center w3-teal" id="login_main_display">
+      <label style="font-size:20px" class="w3-text-white">Username:</label>
+      <label style="font-size:20px" class="w3-text-white"  id="login_name"></label><br>
+        <label style="font-size:20px" class="w3-text-white">Email:</label>
+      <label style="font-size:20px" class="w3-text-white" id="login_email"></label><br>
+        <label style="font-size:20px" class="w3-text-white">Contact no:</label>
+      <label style="font-size:20px" class="w3-text-white" id="login_number"></label><br>
+      <label style="font-size:20px" class="w3-text-white" id="login_number">User-type:Buyer</label><br>
+
+      </div>
+      <div id="customerupdate" class="w3-container w3-center" style="display:none">
+          <fieldset>
+              <legend>Profile Update</legend>
+           <label class="w3-text-teal">Enter E-mail(Registered email)</label><br>
+          <input type="text" id="updated_customer_email" ><br>
+          <label class="w3-text-teal">Name</label><br>
+          <input type="text" id="updated_customer_name"><br>
+           <label class="w3-text-teal">Mobile number</label><br>
+          <input type="number" id="updated_customer_mobile"><br>
+           <label class="w3-text-teal">Password</label><br>
+          <input type="password" id="updated_customer_password"><br>
+          </fieldset>
+          <button style="margin-top:5px" class="w3-btn w3-teal" onclick="oncustomer_profile_update()">Update</button>
+          <p class="w3-text-red">Email cannot be updated and please enter your E-estate registered Email Id.</p>
+          <p class="w3-text-red">Please Enter those fields which needs updation and enter the remaining fields with your previous details. </p>
+
+      </div>
+      <div id="customerbook" class="w3-container w3-center"  style="display:none">
+          <label style="font-size:20px" class="w3-text-teal">Enter the location to search for properties</label><br>
+            <input type="text" id="customer_book_property" placeholder="Location"><br>
+            <button style="margin-top:5px" class="w3-btn w3-teal" onclick="customer_bookproperty_loc()"><i class="material-icons">search</i></button>
+      </div>
+      <div id="cancelproperty" class="w3-container w3-center" style="display:none">
+
+      </div>
+  </div>
+  <div class="w3-container" id="after_seller_login" style="display:none">
+      <div class="w3-dropdown-hover">
+      <button class="w3-btn w3-gray">Menu</button>
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+           <a href="javascript:seller_home()" class="w3-bar-item w3-button">Home</a>
+        <a href="javascript:seller_update()" class="w3-bar-item w3-button">Update profile</a>
+        <a href="javascript:seller_addproperty()" class="w3-bar-item w3-button">Add property</a>
+         <a href="javascript:seller_logout()" class="w3-bar-item w3-button">Logout</a>
+      </div>
+    </div>
+    <div class="w3-container w3-center w3-teal" id="login_seller_main_display" style="display:block;margin-left:250px;margin-right:250px;">
+      <label style="font-size:20px" class="w3-text-white">Username:</label>
+      <label style="font-size:20px" class="w3-text-white" style="margin-top:10px"  id="seller_login_name"></label><br>
+      <label style="font-size:20px"class="w3-text-white">Email:</label>
+      <label style="font-size:20px"class="w3-text-white" id="seller_login_email"></label><br>
+      <label style="font-size:20px"class="w3-text-white">Contact no :</label>
+      <label style="font-size:20px"class="w3-text-white" id="seller_login_number"></label><br>
+      <label style="font-size:20px"class="w3-text-white">User-type:Seller</label><br>
+
+      </div>
+      <div id="seller_updateprofile" style="display:none" class="w3-container w3-center">
+          <fieldset>
+                 <legend>Profile Update</legend>
+           <label class="w3-text-teal">Enter E-mail(Registered email)</label><br>
+          <input type="text" id="updated_seller_email" ><br>
+          <label class="w3-text-teal">Name</label><br>
+          <input type="text" id="updated_seller_name"><br>
+           <label class="w3-text-teal">Mobile number</label><br>
+          <input type="number" id="updated_seller_mobile"><br>
+           <label class="w3-text-teal">Password</label><br>
+          <input type="password" id="updated_seller_password"><br>
+          </fieldset>
+          <button style="margin-top:5px" class="w3-btn w3-teal" onclick="onseller_profile_update()">Update</button>
+          <p class="w3-text-red">Email cannot be updated and please enter your E-estate registered Email Id.</p>
+          <p class="w3-text-red">Please Enter those fields which needs updation and enter the remaining fields with your previous details. </p>
+      </div>
+      <div id="seller_add_property" style="display:none" class="w3-container w3-center">
+          <fieldset>
+                 <legend>
+                     Property deatils
+                 </legend>
+                  <label class="w3-text-teal">Enter your Email(E-estate registered email)</label><br>
+                  <input style="margin-bottom:5px" type="email" id="property_id"><br>
+                 <label class="w3-text-teal">property type:</label><br>
+                 <select style="margin-bottom:5px" class="w3-text-teal" id="property_type">
+                     <option>Residential Attached</option>
+                     <option>Residential Detached Single Family</option>
+                      <option>Duplex Side By Side</option>
+                     <option>Duplex Up And Down</option>
+                      <option>Half Duplex</option>
+                     <option>Tri-Plex</option>
+                      <option>4Plex</option>
+                     <option>Carriage Home</option>
+                     <option>Apartment (Lowrise)</option>
+                     <option>Apartment (High Rise)</option>
+                     <option>Stacked Townhouse</option>
+                     <option>Townhouse</option>
+                     <option>Parking Stall</option>
+                     <option>Vacant Lot</option>
+                 </select><br>
+                 <label class="w3-text-teal"> Size of property(in sq.fts)</label><br>
+                <input class="w3-hover-pale-blue" style="margin-bottom:5px" type="number" id="property_size"><br>
+                <label class="w3-text-teal">  Where is your property(city)</label><br>
+                <input class="w3-hover-pale-blue" style="margin-bottom:5px"  type="text" id="property_city"><br>
+                <label class="w3-text-teal">  Describe your property<br></label>
+                <textarea class="w3-hover-pale-blue" style="margin-bottom:5px" placeholder="Describe your property" rows="10" cols="100" id="pdesc">
+
+                </textarea>
+                </fieldset>
+                <button class="w3-btn w3-teal" onclick="propertyregister_fun()">Add property</button>
+      </div>
+      <div id="seller_remove_property" style="display:none"  class="w3-container w3-center">
+          <h1>Seller remove property</h1>
+      </div>
+
+  </div>
+  <div id="id011" class="w3-modal">
+  <div class="w3-modal-content">
+
+    <header class="w3-container w3-teal">
+      <span onclick="document.getElementById('id011').style.display='none';seller_home()"
+      class="w3-button w3-display-topright">&times;</span>
+      <h2 class="w3-center">Property details</h2>
+    </header>
+
+    <div class="w3-container">
+    <h3 class="w3-text-black" id="one"></h3>
+     <h3 class="w3-text-black" id="two"></h3>
+      <h3 class="w3-text-black" id="three"></h3>
+       <h3 class="w3-text-black" id="four"></h3>
+    </div>
+
+    <footer class="w3-container w3-teal w3-center">
+        <h2>E-estate</h2>
+    </footer>
+
+  </div>
+</div>
+<div id="book_property_details" class="w3-container w3-center w3-white" style="display:none">
+    <h2 id="booked_property_type"></h2>
+    <h2 id="booked_property_area"></h2>
+    <h2 id="booked_property_size"></h2>
+    <h2 id="booked_property_description"></h2>
+    <button class="w3-btn w3-teal" onclick="property_book_button()">Bookthis property</button>
+     <button class="w3-btn w3-teal" onclick="property_next_button()">View next property</button>
+</div>
+<div id="after_property_book" class="w3-container w3-center" style="display:none">
+  <fieldset>
+    <legend>Payment details</legend>
+  <label style="margin-top:5px;align:left" class="w3-text-teal" >Enter your e-estate registered E-mail</label><br>
+  <input style="align:left"  type="email" id="after_property_book_email"><br>
+  <label style="margin-top:5px;align:left"  class="w3-text-teal">Enter your card number</label><br>
+  <input   type="number" id="after_property_book_card_number"><br>
+  <label style="align:left"  class="w3-text-teal">Card type:</label>
+  <input   type="radio" name="card"><label class="w3-text-teal">Visa</label>
+  <input   type="radio" name="card"><label class="w3-text-teal">Master Card</label>
+  <input   type="radio" name="card"><label class="w3-text-teal">Rupay</label><br>
+  <label style="margin-top:5px;align:left"  class="w3-text-teal"> Name on the card</label><br>
+  <input  type="text" id="after_property_book_card_name"><br>
+  <label style="margin-top:5px;align:left"  class="w3-text-teal" >Expiry date</label><br>
+  <input  type="date" id="after_property_book_expirydate"><br>
+</fieldset>
+  <button style="margin-top:5px"  class="w3-btn w3-teal" type="submit" onclick="checkout()">Proceed to checkout</button><br>
+</div>
+<div id="id5" class="w3-modal">
+  <div class="w3-modal-content w3-animate-top w3-card-4">
+    <header class="w3-container w3-teal">
+      <span onclick="document.getElementById('id5').style.display='none';customer_home()"
+      class="w3-button w3-display-topright">&times;</span>
+      <h2 class="w3-center">Thank you</h2>
+    </header>
+    <div class="w3-container">
+
+      <h3 class="w3-text-black">We are very glad for you.We've passed your information to the seller and we'll soon arrange an negotiation session between both of you and after settling down the negotiation you can buy the property with us.</h3>
+
+    </div>
+    <footer class="w3-container w3-teal">
+      <p class="w3-center">E-estate</p>
+    </footer>
+  </div>
+</div>
+    </body>
+</html>
